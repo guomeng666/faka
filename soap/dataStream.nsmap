@@ -1,0 +1,8 @@
+
+#include "stdsoap2.h"
+/* This defines the global XML namespaces[] table to #include and compile */
+SOAP_NMAC struct Namespace namespaces[] = {
+        {"soapenv", "http://schemas.xmlsoap.org/soap/envelope/", "http://www.w3.org/*/soap-envelope", NULL},
+        {"web", "http://webservice.fy.ggzn.org/", "http://www.w3.org/*/soap-encoding", NULL},
+        {NULL, NULL, NULL, NULL}
+    };
